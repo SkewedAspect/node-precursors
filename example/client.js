@@ -17,7 +17,7 @@ client.connect('test@test.com', '1234')
         // Time to send a useless message
         var chatChannel = client.channel('foobar');
 
-        chatChannel.event({ message: "Foo!" });
+        chatChannel.event({ message: "Foo!" }, 'tcp');
     })
     .catch(prelib.errors.RequestDenied, function(message)
     {
