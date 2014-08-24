@@ -3,6 +3,14 @@
 This is a simple communication library for the precursors server. It has been designed to make things as straightforward 
 as possible, using things that should be very familiar to node developers.
 
+## Installing
+
+Simply install the `precursors-client` package from npm:
+
+```bash
+$ npm install --save precursors-client
+```
+
 ## Client Type
 
 First things first, you need to pick which client type you want to use. You choices are as follows:

@@ -1,5 +1,5 @@
 {
-  "name": "node-precursors",
+  "name": "precursors-client",
   "version": "0.1.0",
   "description": "A library for communication with the Precursors Server.",
   "main": "index.js",
