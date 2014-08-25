@@ -18,6 +18,8 @@ client.connect('test@test.com', '1234')
         var chatChannel = client.channel('foobar');
 
         chatChannel.event({ message: "Foo!" }, 'tcp');
+
+        client.disconnect();
     })
     .catch(prelib.errors.RequestDenied, function(message)
     {
